@@ -1,0 +1,16 @@
+$text_white: #fff ;
+$main1_color: #1e1d1b;
+$main2_color: #272624;
+$farei_color: #fdb467 ;
+*{
+    margin: 0;
+    padding: 0;
+}
+.part1{
+    color: $text_white;
+    background-image: url(../assets/1.png);
+    background-size: 100%;
+    button{
+        background-color: $farei_color;
+    }
+}

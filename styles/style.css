@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.part1 {
+  color: #fff;
+  background-image: url(../assets/1.png);
+  background-size: 100%;
+}
+.part1 button {
+  background-color: #fdb467;
+}/*# sourceMappingURL=style.css.map */
