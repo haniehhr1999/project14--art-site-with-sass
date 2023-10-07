@@ -38,4 +38,18 @@
 }
 .part2 .part2-right button {
   background-color: #fdb467;
+}
+
+.part3 {
+  display: flex;
+}
+.part3 .part3-left {
+  width: 30%;
+  background-color: #eee9e5;
+}
+.part3 .part3-right {
+  width: 70%;
+  background-image: url(../assets/2.png);
+  background-size: 100%;
+  background-position: center;
 }/*# sourceMappingURL=style.css.map */
