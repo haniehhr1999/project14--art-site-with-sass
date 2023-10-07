@@ -47,11 +47,30 @@ $farei2_color: #eee9e5;
     .part3-left{
         width: 30%;
         background-color: $farei2_color;
+        button{
+            background-color: $farei_color;
+        }
     }
     .part3-right{
         width: 70%;
         background-image: url(../assets/2.png);
         background-size: 100%;
         background-position: center;
+    }
+}
+.part4{
+    display: flex;
+    .part4-left{
+        width: 70%;
+        background-image: url(../assets/3.png);
+        background-size: 100%;
+        background-position: center;
+    }
+    .part4-right{
+        width: 30%;
+        background-color: $farei2_color;
+        button{
+            background-color: $farei_color;
+        }
     }
 }

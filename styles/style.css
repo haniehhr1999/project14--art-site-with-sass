@@ -47,9 +47,29 @@
   width: 30%;
   background-color: #eee9e5;
 }
+.part3 .part3-left button {
+  background-color: #fdb467;
+}
 .part3 .part3-right {
   width: 70%;
   background-image: url(../assets/2.png);
   background-size: 100%;
   background-position: center;
+}
+
+.part4 {
+  display: flex;
+}
+.part4 .part4-left {
+  width: 70%;
+  background-image: url(../assets/3.png);
+  background-size: 100%;
+  background-position: center;
+}
+.part4 .part4-right {
+  width: 30%;
+  background-color: #eee9e5;
+}
+.part4 .part4-right button {
+  background-color: #fdb467;
 }/*# sourceMappingURL=style.css.map */
