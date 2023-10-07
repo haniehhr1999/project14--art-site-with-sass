@@ -72,4 +72,18 @@
 }
 .part4 .part4-right button {
   background-color: #fdb467;
+}
+
+.part5 {
+  text-align: center;
+  background-color: #eee9e5;
+}
+.part5 .part5-cards {
+  display: flex;
+}
+.part5 .part5-cards .card img {
+  width: 100%;
+}
+.part5 button {
+  background-color: #fdb467;
 }/*# sourceMappingURL=style.css.map */

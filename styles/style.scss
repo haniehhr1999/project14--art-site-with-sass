@@ -74,3 +74,18 @@ $farei2_color: #eee9e5;
         }
     }
 }
+.part5{
+    text-align: center;
+    background-color: $farei2_color;
+    .part5-cards{
+        display: flex;
+        .card{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    button{
+        background-color: $farei_color;
+    }
+}
