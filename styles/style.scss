@@ -102,3 +102,17 @@ $farei2_color: #eee9e5;
         
     }
 }
+.part7{
+    color: $text_white;
+    text-align: center;
+    background-color: $main1_color;
+    .part7-form{
+        input{
+            background-color: transparent;
+            border: 1px solid $farei2_color;
+        }
+        button{
+            background-color: $farei_color;
+        }
+    }
+}

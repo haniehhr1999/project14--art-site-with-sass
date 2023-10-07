@@ -99,4 +99,17 @@
 }
 .part6 .part6-right {
   width: 40%;
+}
+
+.part7 {
+  color: #fff;
+  text-align: center;
+  background-color: #1e1d1b;
+}
+.part7 .part7-form input {
+  background-color: transparent;
+  border: 1px solid #eee9e5;
+}
+.part7 .part7-form button {
+  background-color: #fdb467;
 }/*# sourceMappingURL=style.css.map */
