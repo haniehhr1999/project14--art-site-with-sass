@@ -89,3 +89,16 @@ $farei2_color: #eee9e5;
         background-color: $farei_color;
     }
 }
+.part6{
+    background-image: url(../assets/7.png);
+    background-size: 100%;
+    display: flex;
+    .part6-left{
+        width: 60%;
+        background-color: $text_white;
+    }
+    .part6-right{
+        width: 40%;
+        
+    }
+}

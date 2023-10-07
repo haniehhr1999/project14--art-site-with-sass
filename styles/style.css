@@ -86,4 +86,17 @@
 }
 .part5 button {
   background-color: #fdb467;
+}
+
+.part6 {
+  background-image: url(../assets/7.png);
+  background-size: 100%;
+  display: flex;
+}
+.part6 .part6-left {
+  width: 60%;
+  background-color: #fff;
+}
+.part6 .part6-right {
+  width: 40%;
 }/*# sourceMappingURL=style.css.map */
