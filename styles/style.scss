@@ -1,16 +1,15 @@
-$text_white: #fff ;
-$main1_color: #1e1d1b;
-$main2_color: #272624;
-$farei_color: #fdb467;
-$farei2_color: #eee9e5;
+@import 'colors' ;
+$size: 12rem;
 *{
     margin: 0;
     padding: 0;
 }
 .part1{
+    padding: $size*3/2 $size;
     color: $text_white;
     background-image: url(../assets/1.png);
     background-size: 100%;
+    background-position: center;
     button{
         background-color: $farei_color;
     }
@@ -19,6 +18,7 @@ $farei2_color: #eee9e5;
     display: flex;
     text-align: center;
     .part2-left{
+        padding: $size $size/2;
         width: 50%;
         color: $text_white;
         background-color: $main2_color;
@@ -29,6 +29,7 @@ $farei2_color: #eee9e5;
         }
     }
     .part2-right{
+        padding: $size $size/2;
         width: 50%;
         color: $text_white;
         background-color: $main1_color;
@@ -45,6 +46,7 @@ $farei2_color: #eee9e5;
 .part3{
     display: flex;
     .part3-left{
+        padding: $size $size/2;
         width: 30%;
         background-color: $farei2_color;
         button{
@@ -67,6 +69,7 @@ $farei2_color: #eee9e5;
         background-position: center;
     }
     .part4-right{
+        padding: $size $size/2;
         width: 30%;
         background-color: $farei2_color;
         button{
@@ -75,9 +78,11 @@ $farei2_color: #eee9e5;
     }
 }
 .part5{
+    padding: $size/2 0;
     text-align: center;
     background-color: $farei2_color;
     .part5-cards{
+        padding: 0 $size;
         display: flex;
         .card{
             img{
@@ -91,10 +96,13 @@ $farei2_color: #eee9e5;
 }
 .part6{
     background-image: url(../assets/7.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
+    padding: $size;
     .part6-left{
-        width: 60%;
+        padding: $size/3;
+        width: 50%;
         background-color: $text_white;
     }
     .part6-right{
@@ -105,6 +113,7 @@ $farei2_color: #eee9e5;
 .part7{
     color: $text_white;
     text-align: center;
+    padding: $size $size*2;
     background-color: $main1_color;
     .part7-form{
         input{

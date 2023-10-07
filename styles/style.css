@@ -4,9 +4,11 @@
 }
 
 .part1 {
+  padding: 18rem 12rem;
   color: #fff;
   background-image: url(../assets/1.png);
   background-size: 100%;
+  background-position: center;
 }
 .part1 button {
   background-color: #fdb467;
@@ -17,6 +19,7 @@
   text-align: center;
 }
 .part2 .part2-left {
+  padding: 12rem 6rem;
   width: 50%;
   color: #fff;
   background-color: #272624;
@@ -27,6 +30,7 @@
   margin: auto;
 }
 .part2 .part2-right {
+  padding: 12rem 6rem;
   width: 50%;
   color: #fff;
   background-color: #1e1d1b;
@@ -44,6 +48,7 @@
   display: flex;
 }
 .part3 .part3-left {
+  padding: 12rem 6rem;
   width: 30%;
   background-color: #eee9e5;
 }
@@ -67,6 +72,7 @@
   background-position: center;
 }
 .part4 .part4-right {
+  padding: 12rem 6rem;
   width: 30%;
   background-color: #eee9e5;
 }
@@ -75,10 +81,12 @@
 }
 
 .part5 {
+  padding: 6rem 0;
   text-align: center;
   background-color: #eee9e5;
 }
 .part5 .part5-cards {
+  padding: 0 12rem;
   display: flex;
 }
 .part5 .part5-cards .card img {
@@ -90,11 +98,14 @@
 
 .part6 {
   background-image: url(../assets/7.png);
+  background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
+  padding: 12rem;
 }
 .part6 .part6-left {
-  width: 60%;
+  padding: 4rem;
+  width: 50%;
   background-color: #fff;
 }
 .part6 .part6-right {
@@ -104,6 +115,7 @@
 .part7 {
   color: #fff;
   text-align: center;
+  padding: 12rem 24rem;
   background-color: #1e1d1b;
 }
 .part7 .part7-form input {
