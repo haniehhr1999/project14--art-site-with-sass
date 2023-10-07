@@ -14,3 +14,30 @@ $farei_color: #fdb467 ;
         background-color: $farei_color;
     }
 }
+.part2{
+    display: flex;
+    text-align: center;
+    .part2-left{
+        width: 50%;
+        color: $text_white;
+        background-color: $main2_color;
+        hr{
+            color: $farei_color;
+            width: 20%;
+            margin: auto;
+        }
+    }
+    .part2-right{
+        width: 50%;
+        color: $text_white;
+        background-color: $main1_color;
+        hr{
+            color: $farei_color;
+            width: 20%;
+            margin: auto;
+        }
+        button{
+            background-color: $farei_color;
+        }
+    }
+}

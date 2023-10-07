@@ -10,4 +10,32 @@
 }
 .part1 button {
   background-color: #fdb467;
+}
+
+.part2 {
+  display: flex;
+  text-align: center;
+}
+.part2 .part2-left {
+  width: 50%;
+  color: #fff;
+  background-color: #272624;
+}
+.part2 .part2-left hr {
+  color: #fdb467;
+  width: 20%;
+  margin: auto;
+}
+.part2 .part2-right {
+  width: 50%;
+  color: #fff;
+  background-color: #1e1d1b;
+}
+.part2 .part2-right hr {
+  color: #fdb467;
+  width: 20%;
+  margin: auto;
+}
+.part2 .part2-right button {
+  background-color: #fdb467;
 }/*# sourceMappingURL=style.css.map */
