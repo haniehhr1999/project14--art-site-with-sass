@@ -1,3 +1,44 @@
+.card img {
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+}
+
+button {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 5px;
+  background-color: #fdb467;
+  transition: 0.5s;
+  cursor: pointer;
+  border: none;
+}
+button:hover {
+  background-color: #eee9e5;
+}
+
+hr {
+  border-color: #fdb467;
+  width: 20%;
+  margin: auto;
+}
+
+.spacing {
+  margin: 1.2rem 0;
+}
+
+.title-spacing {
+  margin: 0.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +50,7 @@
   background-image: url(../assets/1.png);
   background-size: 100%;
   background-position: center;
-}
-.part1 button {
-  background-color: #fdb467;
+  background-repeat: no-repeat;
 }
 
 .part2 {
@@ -24,24 +63,11 @@
   color: #fff;
   background-color: #272624;
 }
-.part2 .part2-left hr {
-  color: #fdb467;
-  width: 20%;
-  margin: auto;
-}
 .part2 .part2-right {
   padding: 12rem 6rem;
   width: 50%;
   color: #fff;
   background-color: #1e1d1b;
-}
-.part2 .part2-right hr {
-  color: #fdb467;
-  width: 20%;
-  margin: auto;
-}
-.part2 .part2-right button {
-  background-color: #fdb467;
 }
 
 .part3 {
@@ -52,14 +78,12 @@
   width: 30%;
   background-color: #eee9e5;
 }
-.part3 .part3-left button {
-  background-color: #fdb467;
-}
 .part3 .part3-right {
   width: 70%;
   background-image: url(../assets/2.png);
-  background-size: 100%;
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .part4 {
@@ -68,16 +92,14 @@
 .part4 .part4-left {
   width: 70%;
   background-image: url(../assets/3.png);
-  background-size: 100%;
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .part4 .part4-right {
   padding: 12rem 6rem;
   width: 30%;
   background-color: #eee9e5;
-}
-.part4 .part4-right button {
-  background-color: #fdb467;
 }
 
 .part5 {
@@ -92,14 +114,11 @@
 .part5 .part5-cards .card img {
   width: 100%;
 }
-.part5 button {
-  background-color: #fdb467;
-}
 
 .part6 {
   background-image: url(../assets/7.png);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
   display: flex;
   padding: 12rem;
 }
@@ -121,7 +140,4 @@
 .part7 .part7-form input {
   background-color: transparent;
   border: 1px solid #eee9e5;
-}
-.part7 .part7-form button {
-  background-color: #fdb467;
 }/*# sourceMappingURL=style.css.map */

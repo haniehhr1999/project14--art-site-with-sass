@@ -1,0 +1,12 @@
+// .card{
+//     img{
+//         width: 100%;
+//     }
+// }
+@for $i from 1 through 3 {
+    .card{
+        img{
+            width: 100%;
+        }
+    }
+}

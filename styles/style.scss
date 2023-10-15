@@ -1,5 +1,36 @@
 @import 'colors' ;
+@import 'card';
+
 $size: 12rem;
+$pixels: 5px ;
+$space_elements: 1;
+
+button{
+    padding-top: $size / 24;
+    padding-bottom: $size / 24;
+    padding-left: $size / 12;
+    padding-right: $size / 12;
+
+    border-radius: $pixels;
+    background-color: $farei_color;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    &:hover{
+        background-color: $farei2_color ;
+    }
+}
+hr{
+    border-color: $farei_color ;
+    width: 20%;
+    margin: auto;
+}
+.spacing{
+    margin: $size/10 0;
+}
+.title-spacing{
+    margin: $size/24;
+}
 *{
     margin: 0;
     padding: 0;
@@ -10,9 +41,7 @@ $size: 12rem;
     background-image: url(../assets/1.png);
     background-size: 100%;
     background-position: center;
-    button{
-        background-color: $farei_color;
-    }
+    background-repeat: no-repeat;
 }
 .part2{
     display: flex;
@@ -22,25 +51,13 @@ $size: 12rem;
         width: 50%;
         color: $text_white;
         background-color: $main2_color;
-        hr{
-            color: $farei_color;
-            width: 20%;
-            margin: auto;
-        }
     }
     .part2-right{
         padding: $size $size/2;
         width: 50%;
         color: $text_white;
         background-color: $main1_color;
-        hr{
-            color: $farei_color;
-            width: 20%;
-            margin: auto;
-        }
-        button{
-            background-color: $farei_color;
-        }
+
     }
 }
 .part3{
@@ -49,15 +66,13 @@ $size: 12rem;
         padding: $size $size/2;
         width: 30%;
         background-color: $farei2_color;
-        button{
-            background-color: $farei_color;
-        }
     }
     .part3-right{
         width: 70%;
         background-image: url(../assets/2.png);
-        background-size: 100%;
         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 .part4{
@@ -65,16 +80,14 @@ $size: 12rem;
     .part4-left{
         width: 70%;
         background-image: url(../assets/3.png);
-        background-size: 100%;
         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .part4-right{
         padding: $size $size/2;
         width: 30%;
         background-color: $farei2_color;
-        button{
-            background-color: $farei_color;
-        }
     }
 }
 .part5{
@@ -90,14 +103,11 @@ $size: 12rem;
             }
         }
     }
-    button{
-        background-color: $farei_color;
-    }
 }
 .part6{
     background-image: url(../assets/7.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
     display: flex;
     padding: $size;
     .part6-left{
@@ -119,9 +129,6 @@ $size: 12rem;
         input{
             background-color: transparent;
             border: 1px solid $farei2_color;
-        }
-        button{
-            background-color: $farei_color;
         }
     }
 }
