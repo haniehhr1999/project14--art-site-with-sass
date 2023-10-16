@@ -1,0 +1,124 @@
+@import 'colors' ;
+@import 'card';
+@import 'sizes';
+
+
+button{
+    padding: $size/24 $size/12;
+    border-radius: $pixels;
+    background-color: $farei_color;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    &:hover{
+        background-color: $farei2_color ;
+    }
+}
+hr{
+    border-color: $farei_color ;
+    width: 20%;
+    margin: auto;
+}
+.spacing{
+    padding: $size/10 0;
+}
+.title-spacing{
+    padding: $size/24;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (min-width : 0){
+    .part1{
+        color: $text_white;
+        background-image: url(../assets/1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: $size/4;
+    }
+    .part2{
+        display: block;
+        text-align: center;
+        .part2-left{
+            padding: $size/6 $size/4;
+            color: $text_white;
+            background-color: $main2_color;
+        }
+        .part2-right{
+            padding: $size/6 $size/4;
+            color: $text_white;
+            background-color: $main1_color;
+        }
+    }
+    .part3{
+        display: block;
+        .part3-left{
+            padding: $size/6 $size/4;
+            background-color: $farei2_color;
+        }
+        .part3-right{
+            height: 400px;
+            background-image: url(../assets/2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+    }
+    .part4{
+        display: block;
+        .part4-left{
+            height: 400px;
+            background-image: url(../assets/3.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top left;
+        }
+        .part4-right{
+            padding: $size/6 $size/4;
+            background-color: $farei2_color;
+        }
+    }
+    .part5{
+        padding: $size/6 $size/4;
+        text-align: center;
+        background-color: $farei2_color;
+        .part5-cards{
+            display: block;
+            .card{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .part6{
+        background-image: url(../assets/7.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        display: block;
+        padding: $size/4;
+        .part6-left{
+            padding: $size/12;
+            background-color: $text_white;
+            opacity: 0.5;
+        }
+        .part6-right{
+            width: 100%;
+        }
+    }
+    .part7{
+        color: $text_white;
+        text-align: center;
+        padding: $size/6 $size/4;
+        background-color: $main1_color;
+        .part7-form{
+            input{
+                background-color: transparent;
+                border: 1px solid $farei2_color;
+            }
+        }
+    }
+}

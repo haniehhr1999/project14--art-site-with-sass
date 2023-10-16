@@ -1,0 +1,58 @@
+@import 'colors' ;
+@import 'card';
+@import 'sizes';
+@import 'zero-to-sm';
+
+@media only screen and (min-width : $md) {
+    .part2{
+        display: flex !important;
+        .part2-left{
+            padding: $size/6 $size/8 !important;
+            width: 50% !important;
+        }
+        .part2-right{
+            padding: $size/6 $size/8 !important;
+            width: 50% !important;
+        }
+    } 
+    .part3{
+        display: flex !important;
+        .part3-left{
+            padding: $size/6 $size/8 !important;
+            width: 30% !important;
+        }
+        .part3-right{
+            width: 70% !important;
+            background-position: center !important;
+        }
+    }
+    .part4{
+        display: flex !important;
+        .part4-left{
+            width: 70% !important;
+            background-position: center !important;
+        }
+        .part4-right{
+            padding: $size/6 $size/8 !important;
+            width: 30% !important;
+        }
+    }
+    .part5{
+        padding: $size/4 0 !important;
+        .part5-cards{
+            padding: 0 $size/2 !important;
+            display: flex !important;
+        }
+    }
+    .part6{
+        display: flex !important;
+        .part6-left{
+            padding: $size/3 !important;
+            width: 50% !important;
+        }
+        .part6-right{
+            width: 40% !important;
+            
+        }
+    }
+}

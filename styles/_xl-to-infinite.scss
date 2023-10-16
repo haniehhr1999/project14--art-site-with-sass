@@ -1,0 +1,38 @@
+@import 'colors' ;
+@import 'card';
+@import 'sizes';
+@import 'zero-to-sm';
+
+@media only screen and (min-width : $xl){
+    .part1{
+        padding: $size*3/2 $size !important;
+    }
+    .part2{
+        .part2-left{
+            padding: $size $size/2 !important;
+        }
+        .part2-right{
+            padding: $size $size/2 !important;
+        }
+    }
+    .part3{
+        .part3-left{
+            padding: $size $size/2 !important;
+        }
+    }
+    .part4{
+        .part4-right{
+            padding: $size $size/2 !important;
+            // width: 30%;
+            // background-color: $farei2_color;
+        }
+    }
+    .part6{
+        padding: $size !important;
+    }
+    .part7{
+
+        padding: $size $size*2 !important;
+    }
+    
+}

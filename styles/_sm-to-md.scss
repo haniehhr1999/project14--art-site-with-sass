@@ -1,0 +1,36 @@
+@import 'colors' ;
+@import 'card';
+@import 'sizes';
+@import 'zero-to-sm';
+
+@media only screen and (min-width : $sm){
+    .part1{
+        background-position: center !important;
+        padding: $size/6 $size/4 !important;
+    }
+    .part3{
+        .part3-right{
+            height: auto !important;
+            background-position: center !important;
+        }
+    }
+    .part4{
+        .part4-left{
+            height: auto !important;
+            background-position: top !important;
+        }
+    }
+    .part5{
+        .part5-cards{
+            padding: 0 $size/2 !important;
+        }
+    }
+    .part6{
+        padding: $size/2 !important;
+        .part6-left{
+            padding: $size/4 !important;
+            width: 100% !important;
+            opacity: 1 !important;
+        }
+    }
+}

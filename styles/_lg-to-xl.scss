@@ -1,0 +1,42 @@
+@import 'colors' ;
+@import 'card';
+@import 'sizes';
+@media only screen and (min-width : $lg){
+    .part1{
+        padding: $size/4 $size !important;
+    }
+    .part2{
+        display: flex !important;
+        .part2-left{
+            padding: $size/4 $size/2 !important;
+        }
+        .part2-right{
+            padding: $size/4 $size/2 !important;
+        }
+    }
+    .part3{
+        .part3-left{
+            padding: $size/4 $size/2 !important;
+        }
+    }
+    .part4{
+        .part4-right{
+            padding: $size/4 $size/2 !important;
+        }
+    }
+    .part5{
+        padding: $size/2 0 !important;
+        .part5-cards{
+            padding: 0 $size !important;
+        }
+    }
+    .part6{
+        padding: $size/2 !important;
+        .part6-left{
+            padding: $size/3 !important;
+        }
+    }
+    .part7{
+        padding: $size/4 $size*2 !important;
+    }
+}
